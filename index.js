@@ -33,4 +33,6 @@ const students = [
 ];
 
 // Write your code here!
-console.log(students);
+students.forEach((student) => {
+  console.log(student)
+})
